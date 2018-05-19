@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Laboratrivia</title>
+  <!-- link rel="stylesheet" href="css/style.css" -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- CABECERA -->
+  <header>
+    <h1> 🌎 LABORATRIVIA 🌎 </h1>
+    <h3 id="bienvenida"> BIENVENID@ </h3><!-- Este elemento nos permite agregar el nombre del usuario -->
+
+    <hr/>
+  </header>
+  <!-- PREGUNTAS -->
+  <section>
+    <div id="contenedorPreguntas">
+        <form >
+          <div>
+              <label for="name">Name:</label>
+              <br><input type="text" id="userName" />
+          </div>
+          <div>
+              <label for="msg">Pregunta 1: ¿Cuál es la bebida preferida de Gonzalo? <br> 1. Agua <br> 2. Cerveza <br> 3. Vino</label>
+              <br><input type="text" id="answer1" />
+          </div>
+          <div>
+              <label for="msg">Pregunta 2: ¿Qué es lo que más le gusta hacer a Lulú? <br> A. Cantar <br> B. Dibujar <br> C. Programar</label>
+              <br><input type="text" id="answer2" />
+          </div>
+
+          <div class="button">
+              <button type="button" onclick="myFunction()">Enviar</button>
+          </div>
+      </form>
+    </div>
+  </section>
+  
+  <!-- RESULTADOS -->
+  <section>
+    <div id="contenedorPrincipal"><!-- Nos permite ver el marcador -->
+      <h3>RESULTADOS</h3>
+      <div id="respuestasCorrectas" class="marcador">
+        
+      </div><!-- Se visualizan las respuestas correctas -->
+      <div id="respuestasIncorrectas"  class="marcador">
+        
+      </div><!-- Nos permite visualizar las respuestas incorrectas -->
+    </div>
+  </section>
+
+  <!-- script type="text/javascript" src="js/app.js"></script -->
+
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

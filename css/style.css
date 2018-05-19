@@ -1,0 +1,51 @@
+body {
+  background-color: #CBCBDD;
+}
+
+.marcador {
+  border: 1px solid black;
+  min-height: 75px;
+  width: 50%;
+}
+
+form {
+  /* Para ver el borde del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+  display: inline-block;
+  width: 350px;
+  text-align: left;
+} 
+
+input {
+  font: 1em sans-serif;
+  width: 90px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-left: 5%;
+}
+
+input:focus {
+  /* Para dar un pequeño destaque en elementos activos*/
+  border-color: #000;
+}
+
+.button {
+  /* Para posicionar los botones a la misma posición que los campos de texto */
+  padding-left: 9%; /* mismo tamaño a todos los elementos label */
+}
+button {
+  /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+     entre los labels y sus campos de texto */
+  margin-left: .5em;
+}
